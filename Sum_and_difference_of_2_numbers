@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	unsigned long int variable1,variable2,sum,diff;
+    float variable3,variable4,sum_fl,diff_fl;
+    scanf("%ld %ld",&variable1,&variable2);
+    scanf("\n%f %f",&variable3,&variable4);
+    sum=variable1+variable2;
+    diff=variable1-variable2;
+    printf("%ld %ld",sum,diff);
+    sum_fl=variable3+variable4;
+    diff_fl=variable3-variable4;
+    printf("\n%.1f %.1f",sum_fl,diff_fl);
+    
+    return 0;
+}
